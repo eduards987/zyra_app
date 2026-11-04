@@ -58,3 +58,9 @@ supabase/
   migrations/  database schema and RLS policies
   functions/   Edge Functions
 ```
+
+## Project status
+
+Prototype. The app, database security (RLS) and charge flow are implemented.
+Payment confirmation via the provider's webhook (marking charges as `paid`)
+is the next step and runs server-side.
